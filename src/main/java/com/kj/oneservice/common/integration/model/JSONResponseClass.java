@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.integration.model;
+package com.kj.oneservice.common.integration.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;

@@ -1,13 +1,13 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
 
-import static com.kk.oneservice.common.integration.util.CommonConstants.ERROR_HEAP_SIZE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.OK;
+import static com.kj.oneservice.common.integration.util.CommonConstants.ERROR_HEAP_SIZE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.OK;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 
-import com.kk.oneservice.common.integration.util.AppLogger;
+import com.kj.oneservice.common.integration.util.AppLogger;
 
 public class MsHealthCheck implements HealthIndicator{
 	

@@ -1,12 +1,12 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
-import static com.kk.oneservice.common.integration.util.CommonConstants.ALLOWED_SERVICE_PATHS;
-import static com.kk.oneservice.common.integration.util.CommonConstants.ONESERVICE_DATA_SOURCE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.SEC_REQ;
-import static com.kk.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
-import static com.kk.oneservice.common.integration.util.CommonConstants.YES;
-import static com.kk.oneservice.common.integration.util.SQLQueryConstants.GET_USERS;
-import static com.kk.oneservice.common.integration.util.SQLQueryConstants.GET_USER_ROLES;
+import static com.kj.oneservice.common.integration.util.CommonConstants.ALLOWED_SERVICE_PATHS;
+import static com.kj.oneservice.common.integration.util.CommonConstants.ONESERVICE_DATA_SOURCE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.SEC_REQ;
+import static com.kj.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
+import static com.kj.oneservice.common.integration.util.CommonConstants.YES;
+import static com.kj.oneservice.common.integration.util.SQLQueryConstants.GET_USERS;
+import static com.kj.oneservice.common.integration.util.SQLQueryConstants.GET_USER_ROLES;
 import static org.apache.commons.lang3.StringUtils.isBlank;
 
 import javax.sql.DataSource;

@@ -1,17 +1,17 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
-import static com.kk.oneservice.common.integration.util.CommonConstants.APPLICATION_JSON;
-import static com.kk.oneservice.common.integration.util.CommonConstants.CONTENT_TYPE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.ERROR_CODE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.JSON_VAL_REQ;
-import static com.kk.oneservice.common.integration.util.CommonConstants.REQUEST_ID;
-import static com.kk.oneservice.common.integration.util.CommonConstants.REQUEST_PATTERN;
-import static com.kk.oneservice.common.integration.util.CommonConstants.REQUEST_URL;
-import static com.kk.oneservice.common.integration.util.CommonConstants.RESPONSE_CODE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.RESPONSE_MESSAGE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
-import static com.kk.oneservice.common.integration.util.CommonConstants.TAG_INSTANCE;
-import static com.kk.oneservice.common.integration.util.CommonConstants.VALIDATION_ERRORS;
+import static com.kj.oneservice.common.integration.util.CommonConstants.APPLICATION_JSON;
+import static com.kj.oneservice.common.integration.util.CommonConstants.CONTENT_TYPE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.ERROR_CODE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.JSON_VAL_REQ;
+import static com.kj.oneservice.common.integration.util.CommonConstants.REQUEST_ID;
+import static com.kj.oneservice.common.integration.util.CommonConstants.REQUEST_PATTERN;
+import static com.kj.oneservice.common.integration.util.CommonConstants.REQUEST_URL;
+import static com.kj.oneservice.common.integration.util.CommonConstants.RESPONSE_CODE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.RESPONSE_MESSAGE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
+import static com.kj.oneservice.common.integration.util.CommonConstants.TAG_INSTANCE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.VALIDATION_ERRORS;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.commons.lang3.StringUtils.removeEnd;
 import static org.apache.commons.lang3.StringUtils.removeStart;
@@ -41,8 +41,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.fge.jsonschema.core.report.ProcessingMessage;
 import com.github.fge.jsonschema.core.report.ProcessingReport;
-import com.kk.oneservice.common.integration.util.AppLogger;
-import com.kk.oneservice.common.integration.util.JSONSchemaValidator;
+import com.kj.oneservice.common.integration.util.AppLogger;
+import com.kj.oneservice.common.integration.util.JSONSchemaValidator;
 
 @SuppressWarnings("deprecation")
 public class AppFilter implements Filter{

@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.integration.util;
+package com.kj.oneservice.common.integration.util;
 
 public class SwaggerConstants {
 

@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

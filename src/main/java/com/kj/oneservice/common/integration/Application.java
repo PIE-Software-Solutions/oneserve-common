@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.integration;
+package com.kj.oneservice.common.integration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

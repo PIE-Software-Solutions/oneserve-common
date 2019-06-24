@@ -1,6 +1,6 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
-import static com.kk.oneservice.common.integration.util.CommonConstants.ONESERVICE_DATA_SOURCE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.ONESERVICE_DATA_SOURCE;
 
 import java.util.Arrays;
 import java.util.Base64;

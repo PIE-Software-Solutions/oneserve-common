@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.integration.config;
+package com.kj.oneservice.common.integration.config;
 
 import java.util.Arrays;
 
@@ -20,12 +20,12 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
 
 	
-	@Pointcut("execution(* com.kk.*.*.*.*.*(..)) || execution(* com.kk.*.*.*.*.*.*(..)) ")
+	@Pointcut("execution(* com.kj.*.*.*.*.*(..)) || execution(* com.kj.*.*.*.*.*.*(..)) ")
 	protected void methodEntryExitLogging() {
 		
 	}
 	
-	@Pointcut("execution(* com.kk.*.*.integration.dao.*.*(..))")
+	@Pointcut("execution(* com.kj.*.*.integration.dao.*.*(..))")
 	protected void timeTakenLogging() {
 		
 	}

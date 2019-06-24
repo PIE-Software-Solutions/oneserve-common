@@ -1,4 +1,4 @@
-package com.kk.oneservice.common.oneservice_common;
+package com.kj.oneservice.common.oneservice_common;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

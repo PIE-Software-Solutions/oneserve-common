@@ -1,9 +1,9 @@
-package com.kk.oneservice.common.integration.model;
+package com.kj.oneservice.common.integration.model;
 
-import static com.kk.oneservice.common.integration.util.CommonConstants.REQUEST_PATTERN;
-import static com.kk.oneservice.common.integration.util.CommonConstants.SUCCESS_RESPONSE;
-import static com.kk.oneservice.common.integration.util.SwaggerConstants.EXP_REQUEST_ID;
-import static com.kk.oneservice.common.integration.util.SwaggerConstants.EXP_RESPONSE_CODE;
+import static com.kj.oneservice.common.integration.util.CommonConstants.REQUEST_PATTERN;
+import static com.kj.oneservice.common.integration.util.CommonConstants.SUCCESS_RESPONSE;
+import static com.kj.oneservice.common.integration.util.SwaggerConstants.EXP_REQUEST_ID;
+import static com.kj.oneservice.common.integration.util.SwaggerConstants.EXP_RESPONSE_CODE;
 
 import java.util.List;
 
@@ -30,7 +30,7 @@ public abstract class ServiceResponse {
 		
 		@JsonProperty(value = "RESPONSE_MSG", required = true)
 		@ApiModelProperty(position = 3, example = SUCCESS_RESPONSE)
-		private Integer responseMsg;
+		private String responseMsg;
 		
 		@JsonProperty(value = "ERROR")
 		@ApiModelProperty(hidden = true)
@@ -52,11 +52,11 @@ public abstract class ServiceResponse {
 			this.responseCode = responseCode;
 		}
 
-		public Integer getResponseMsg() {
+		public String getResponseMsg() {
 			return responseMsg;
 		}
 
-		public void setResponseMsg(Integer responseMsg) {
+		public void setResponseMsg(String responseMsg) {
 			this.responseMsg = responseMsg;
 		}
 

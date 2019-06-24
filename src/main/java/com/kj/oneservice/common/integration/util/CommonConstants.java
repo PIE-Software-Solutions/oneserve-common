@@ -1,10 +1,10 @@
-package com.kk.oneservice.common.integration.util;
+package com.kj.oneservice.common.integration.util;
 
 public class CommonConstants {
 
 	public static String SERVICE_NAME = "service.name";
 	public static String[] ALLOWED_SERVICE_PATHS = new String[] {};
-	public static final String COMMON_PACKAGE_STRUCTURE = "common.kk.oneservice";
+	public static final String COMMON_PACKAGE_STRUCTURE = "common.kj.oneservice";
 	
 	public static final String SERVICE_NAME_REOKACEMENT_STRING = "!SERVICE_NAME!";
 	public static String COMMON_USER_TABLE = "TB_ONESERVICE_MS_USER";
@@ -34,6 +34,7 @@ public class CommonConstants {
 	public static final int EXCEPTION_CODE = 203;
 	public static final int ERROR_CODE = 206;
 	public static final int BAD_REQUEST_CODE = 400;
+	public static final String BAD_REQUEST_RESPONSE = "Bad Request";
 	public static final int INTERNAM_EXCEPTION_CODE = 500;
 	public static final int OK = 0;
 	public static final int ERROR_HEAP_SIZE = -600;
